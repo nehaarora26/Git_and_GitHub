@@ -46,10 +46,20 @@
    1. You can modify the files here
    2. All Local repos are Non-Bare Repos
 
-## git fetch only syncs changes from remote to local....
-## git pull will bring actual data from remote to local
+### git fetch only syncs changes from remote to local....
+### git pull will bring actual data from remote to local
  
 ![Alt text](image-5.png)
+
+## git clone - to download a repository
+
+   When you clone a repository, you create a complete copy of the entire project, including all of its branches, commit history, and files. This allows you to work on the project locally, make changes, and contribute to the repository.
+
+## git fork - to create a copy of repository
+
+   It allows you to create your own personal copy of someone else's repository.
+   You don't use git fork from the command line; instead, you use the fork button on a platform like GitHub.
+   When you fork a repository, you create a copy of the repository on your own GitHub account. You can then clone this forked repository to your local machine using git clone.
 
 
 

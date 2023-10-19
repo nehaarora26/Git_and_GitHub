@@ -36,6 +36,8 @@ git checkout <branch>   ===>	        Switches to the specified branch and update
 
 git merge <branch>      ===>            Combines changes from the specified branch into the current branch.
 
+git cherry-pick <log-id>===>            Merges the given change/commit(Log ID needed) from any branch to the main branch (for 1-2 commits only)
+
 git log	                ===>            Shows a log of all commits in the current branch.
 
 git diff                ===>       	    Shows changes between commits, commit and working tree, etc.
@@ -54,10 +56,17 @@ git --help               ===>           To see a comprehensive list of commands 
 
 ```
 
+
+![Alt text](image-8.png)
 ## Git Cheat Sheet
 
 ![Alt text](image-6.png)
 
 
+To push your repo to GITHUB, you need to authenticate (create remote link) with your github.
 
+You could generate your ssh key and then go to settings on github ===> SSH and GPG keys ===> New SSH key ===> Save your public key and you are linked to your remote repo. 
 
+![Alt text](image-7.png)
+
+For HTTPS link, you need to enter your github password.
